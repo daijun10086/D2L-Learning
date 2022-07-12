@@ -1,1 +1,8 @@
-**Some built-in key words in python**
+Some built-in key words in python:
+1.zip(), this function can join two tuple together,
+  syntax: zip(iterator1, iterator2, iterator3 ...)
+  ex: a = ("John", "Charles", "Mike")
+      b = ("Jenny", "Christy", "Monica", "Vicky")
+      x = zip(a, b)
+      >>> x 
+          (('John', 'Jenny'), ('Charles', 'Christy'), ('Mike', 'Monica'))
